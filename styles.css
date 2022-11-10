@@ -1,0 +1,292 @@
+@font-face {
+  font-family: SegoeUI;
+  src: local("Segoe UI Light"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff2)
+      format("woff2"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff)
+      format("woff"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.ttf)
+      format("truetype");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: SegoeUI;
+  src: local("Segoe UI Semilight"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.woff2)
+      format("woff2"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.woff)
+      format("woff"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.ttf)
+      format("truetype");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: SegoeUI;
+  src: local("Segoe UI"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2)
+      format("woff2"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff)
+      format("woff"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.ttf)
+      format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: SegoeUI;
+  src: local("Segoe UI Bold"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.woff2)
+      format("woff2"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.woff)
+      format("woff"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.ttf)
+      format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: SegoeUI;
+  src: local("Segoe UI Semibold"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.woff2)
+      format("woff2"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.woff)
+      format("woff"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.ttf)
+      format("truetype");
+  font-weight: 700;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+  font-family: SegoeUI;
+}
+
+header {
+  z-index: 1;
+  height: 900px;
+  width: 100%;
+  background-color: #2ecc71;
+  margin: 0 auto;
+}
+
+.content-container {
+  margin: 0 auto;
+  width: 1170px;
+  position: relative;
+}
+
+.header-container {
+  display: flex;
+  width: 1170px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.links-wrapper {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  font-family: sans-serif;
+  color: #f4f4f4;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 39px;
+  line-height: 24.12px;
+}
+
+.app-icon {
+  margin-left: 0;
+  margin-top: 155px;
+  margin-bottom: 65px;
+  height: 111px;
+  width: 111px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  width: 512px;
+  text-align: center;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.menu li a {
+  color: #f4f4f4;
+  text-decoration: none;
+  padding-right: 54px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.menu li:last-child {
+  padding-right: 0;
+}
+.get-app-btn {
+  width: 140px;
+  height: 42px;
+  background-color: #fff;
+  color: #2ecc71;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.header__get-app-btn {
+  margin-left: 52px;
+}
+.promo {
+  color: #f4f4f4;
+  font-size: 64px;
+  line-height: 60px;
+  margin: 0;
+  margin-bottom: 27px;
+}
+.promo span {
+  font-weight: bold;
+}
+.promo__description {
+  font-family: "roboto";
+  color: #f4f4f4;
+  width: 584px;
+  font-size: 18px;
+  line-height: 32px;
+  margin-bottom: 55px;
+}
+.app-store-icon {
+  width: 130px;
+  height: 46px;
+  margin-right: 30px;
+}
+.app-preview-picture {
+  position: absolute;
+  margin: 0;
+  left: 770px;
+  bottom: 0;
+  top: 147px;
+  height: 753px;
+  width: 404px;
+}
+.header-background-wrapper {
+  position: absolute;
+  z-index: 0;
+  height: 900px;
+  width: 100%;
+}
+.header-background {
+  position: relative;
+  height: 900px;
+  width: 100%;
+}
+.apple-left-1stblock {
+  position: absolute;
+  top: 260px;
+}
+.tomato-right-1stblock {
+  position: absolute;
+  top: 250px;
+  right: 50px;
+}
+.strawberry-1stblock {
+  position: absolute;
+  left: 909px;
+  top: 775px;
+}
+.small-tomato-1stblock {
+  position: absolute;
+  top: 650px;
+  right: 275px;
+}
+.banana-1stblock {
+  position: absolute;
+  top: 105px;
+  left: 765px;
+}
+.calorie-counter-section {
+  position: relative;
+  width: 100%;
+  height: 900px;
+}
+.second-block-flex-wrapper {
+  position: relative;
+  display: flex;
+  margin-top: 92px;
+  margin-left: 370px;
+}
+.text-wrapper {
+  padding: 0;
+  margin-left: 330px;
+  margin-top: 255px;
+  height: 160px;
+}
+.headline {
+  color: #5a5a5a;
+  width: 570px;
+  font-size: 48px;
+  line-height: 60px;
+}
+.green-headline {
+  color: #2ecc71;
+}
+.calorie-counter__description {
+  width: 470px;
+  color: #5a5a5a;
+  font-size: 18px;
+  line-height: 32px;
+}
+.icons-circle {
+  position: absolute;
+  z-index: -1;
+  top: 124px;
+  left: 100px;
+  height: 465px;
+  width: 465px;
+  border: 1px solid #d9d9d9;
+  border-radius: 50%;
+}
+.icon-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  background-color: #e7e7e7;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.icon-background:nth-child(3) {
+  background-color: #2ecc71;
+  border: 4px solid white;
+  height: 88px;
+  width: 88px;
+  border-radius: 50%;
+  top: 40%;
+  left: 90%;
+  box-shadow: 0px 0px 60px 0px rgba(15, 65, 36, 0.15);;
+}
+.sound {
+  top: -3%;
+  left: 60%;
+}
+.days {
+  top: 13%;
+  left: 83%;
+}
+
+.favourite {
+  top: 73%;
+  left: 83%;
+}
+
+.interface {
+  top: 90%;
+  left: 60%;
+}
